@@ -1,0 +1,293 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: url(header3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 700px;
+    
+}
+
+header h1{
+    font-size: 10rem;
+    text-align: left;
+    padding-left: 5%;
+    margin: 0px;
+    font-family: 'Cookie', cursive;
+}
+
+header p{
+    text-align: center;
+    font-size: 3rem;
+}
+header .contact {
+    background-color: #88be4c;
+    padding: 10px;
+}
+
+header .contact .icones{
+    width: 80%;
+    margin: auto;
+    top: 0px;
+}
+.contact .icones li {
+    display: inline-block;
+}
+
+
+
+header .contact .icones li a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 2rem;
+    color: white;
+}
+
+header .contact .icones li a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+header .main-navbar {
+    background-color: rgba(0, 0, 0, 0.404);
+    margin-bottom: 0px;
+}
+
+header .main-navbar .menu{
+    margin-top: 0px;
+    padding: 10px;
+    text-align: right;
+}
+header .main-navbar .menu li{
+    display: inline-block;
+    
+    
+}
+header .main-navbar .menu li a{
+    text-decoration: none; 
+    padding: 11px;
+    color: white;
+    font-size: 1.5rem;
+}
+
+header .main-navbar .menu li a:hover{
+    font-weight: 900;
+}
+
+h2{
+    font-family: 'Cookie', cursive;
+    font-size: 3rem;
+    text-align: center;
+    padding: 20px;
+}
+
+.fixNavigation{
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    /* Mise en forme */
+    width: 100%;
+    height: 47.6px;
+    }
+
+main .monde{
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+main .monde img{
+    width: 224px; 
+    height: 224px;
+    border-radius: 100%;
+    position: absolute;
+    margin-left: 130px;
+    
+}
+
+main .monde .colombo{
+    display: inline-block; 
+    box-sizing: border-box;
+    width: 33%;
+    height: 33%;
+    vertical-align: top;
+    text-align: justify;
+}
+
+
+main .monde .sushi{
+    display: inline-block; 
+    box-sizing: border-box;
+    width: 33%;
+    height: 33%;
+    vertical-align: top;
+    text-align: justify;
+    
+}
+
+main .monde .tiramisu{
+    display: inline-block; 
+    box-sizing: border-box;
+    width: 33%;
+    vertical-align: top;
+    text-align: justify;
+}
+
+main .monde .border{
+    border: 1px solid #88be4c;
+    height: 380px;
+    padding: 40px;
+    margin-top: 120px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+main .monde .border h3{
+    padding-top: 70px;
+    text-align: center;
+}
+
+main .monde .border:hover{
+    background-color: #88be4c;
+    color: white;
+    transition: 0.3s;
+}
+
+main .séparation{
+    margin: auto;
+    margin: 10px;
+    margin-bottom: 40px;
+}
+
+.séparation hr{
+    width: 10%;
+    border: 1px solid #88be4c;
+}
+
+main .top {
+    width: 80%;
+    margin: auto;
+}
+main .images{
+    text-align: center;
+}
+
+main .top .images img{
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+    
+}
+
+main .toprecette{
+    position: absolute;
+    top: 0;
+    left: 41px;
+    width: 300px;
+    height: 300px;
+    padding: 20px 10px;
+    cursor: pointer;
+}
+main .toprecette h3{
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+}
+main .toprecette p{
+    color: white;
+}
+main .toprecette{
+    opacity: 0;
+    transition: 2s;
+}
+main .toprecette:hover{
+    opacity: 1;
+    background-color: #88be4c;
+    transition: 0.5s;
+    
+}
+
+.enplus{
+    text-align: center;
+    padding: 20px;
+}
+
+main .restos #carouselExampleControls img{
+    width: 60%;
+    height: 490px;
+
+}
+
+.carousel{
+    width: 70%;
+    margin: auto;
+    padding: 40px;
+}
+
+main .restos{
+    width: 80%;
+    margin: auto;
+}
+
+
+footer{
+    background-color: #88be4c;
+    margin: 0;
+}
+
+footer .footer{
+    width: 60%;
+    margin: auto;
+}
+
+footer .contact{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 50%;
+    text-align: center;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+footer .contact .icon li{
+    display: inline-block;
+    text-align: right;
+    padding: 10px;
+}
+
+footer .contact .icon li .fab{
+    padding: 10px;
+}
+
+footer .foot-nav ul li{
+display: inline-block;
+box-sizing: border-box;
+padding: 10px;
+
+}
+
+footer .foot-nav{
+    width: 50%; 
+    display: inline-block; 
+    box-sizing: border-box;
+    text-align: left;
+}
+
+footer .foot-nav a{
+    padding: 10px;
+}
+
+footer .footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer .footer a:hover{
+    background-color: #fff;
+    color: black;
+    border-radius: 10px;
+}
+
